@@ -1,0 +1,40 @@
+{
+  "pages": [
+
+    "pages/conn/conn",
+    "pages/trend/trend"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MyATS",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3CC51F",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/trend/trend",
+        "iconPath": "image/trend.png",
+        "selectedIconPath": "image/trend_select.png",
+        "text": "Show"
+      },
+      {
+        "pagePath": "pages/conn/conn",
+        "iconPath": "image/conn.png",
+        "selectedIconPath": "image/conn_select.png",
+        "text": "My Device"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
